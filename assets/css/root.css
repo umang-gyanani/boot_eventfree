@@ -60,7 +60,7 @@
 
 @media(max-width:768px) {
     :root {
---fs-2xl: 15px;
+--fs-2xl: 18px;
     --fs-3xl: 20px;
     --fs-4xl: 25px;
     --fs-5xl: 29px;
@@ -73,7 +73,7 @@
 @media(max-width:576px) {
     :root {
 
---fs-2xl: 15px;
+--fs-2xl: 16px;
     --fs-3xl: 18px;
     --fs-4xl: 22px;
     --fs-5xl: 25px;

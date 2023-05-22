@@ -250,6 +250,7 @@ nav ul li a {
 
 }
 
+
 .small_circle {
     background-color: white;
     border: 1px solid #2C49FE;
@@ -304,4 +305,15 @@ nav ul li a {
         nav ul li a {
             margin-right: 0%;
         }
+         
+         
+}
+@media (max-width:768px) {
+    .line::after{
+        display: none;
+    }
+    .line::before{
+        display: none;
+    }
+    
 }
