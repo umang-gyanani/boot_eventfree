@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Yantramanav:wght@400;500&display=swap');
+
+@import url("../css/root.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.f_poppin {
+    font-family: 'poppins', 'sans-serif';
+}
+
+.f_yantramanav {
+    font-family: 'yantramanav', 'sans-serif';
+}
+
+.f_w_600 {
+    font-weight: 600;
+}
+
+.f_w_700 {
+    font-weight: 700;
+}
+
+.f_w_500 {
+    font-weight: 500;
+}
+
+.f_w_400 {
+    font-weight: 400;
+}
+
+
+.fc_blue {
+    color: #2C49FE;
+
+}
+
+.fc_darkblue {
+    color: #2D3CAE;
+}
+
+.fc_scle {
+    color: #BFC5ED;
+}
+
+.fc_lightblue {
+    color: #01C8FF;
+}
+
+.fc_white {
+    color: #ffffff;
+}
+
+.fc_gray {
+    color: #4D4D4D;
+}
+
+.fc_black {
+    color: black;
+}
+
+.footer_box {
+    width: 100%;
+    height: 100%;
+    background: rgba(45, 60, 174, 0.53);
+}
+
+.mw_4ch {
+    max-width: 4ch;
+}
+
+.mw_768 {
+    max-width: 768px;
+}
+
+.mw_708 {
+    max-width: 708px;
+}
+
+.mw_338 {
+    max-width: 338px;
+}
+
+.mw_543 {
+    max-width: 543px;
+}
+
+.mw_270 {
+    max-width: 270px;
+}
+
+.mw_583 {
+    max-width: 583px;
+}
+
+.mw_1044 {
+    max-width: 1044px;
+}
+
+.bg-image {
+    background-image: url(../image/png/heroimage.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.bg_color {
+    background-color: black;
+}
+
+nav ul li a {
+    margin-right: 25px;
+}
+
+.log_btn {
+    background: #2C49FE;
+    border-radius: 23px;
+    padding: 11px 28px;
+    border: 1px solid #2C49FE;
+}
+
+.bg-blue {
+    background-image: url(../image/png/smilelygirl.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.border_radius {
+    border-radius: 5px;
+}
+
+.line {
+    position: relative;
+}
+
+.line::after {
+
+    content: '';
+    position: absolute;
+    Width: 13%;
+    Height: 8px;
+    background: #01C8FF;
+    bottom: -9px;
+    right: 0%;
+}
+
+.line::before {
+    content: '';
+    position: absolute;
+    Width: 90%;
+    Height: 8px;
+    background-color: blue;
+    bottom: -9px;
+    left: 0;
+}
+
+.mw_900 {
+    max-width: 900;
+}
+
+.box {
+    background: rgba(44, 73, 254, 0.74);
+    border-radius: 150px;
+    max-width: 962px;
+    padding: 25px;
+}
+
+.mw_20 {
+    width: 20px;
+    height: 20px;
+}
+
+.mw_339 {
+    max-width: 339px;
+}
+
+.mw_346 {
+    max-width: 346px;
+}
+.mw_24{
+    max-width: 30px;
+}
+
+.mw_188 {
+    max-width: 188px;
+}
+
+.mw_279 {
+    max-width: 279px;
+}
+
+.mw_891 {
+    max-width: 891px;
+}
+
+.mw_574 {
+    max-width: 574px;
+}
+
+.mw_536 {
+    max-width: 536px;
+}
+
+.mw_469 {
+    max-width: 469px;
+}
+
+.signup_btn {
+    background: #2C49FE;
+    border-radius: 23px;
+    border: 1px solid #2C49FE;
+    padding: 11px;
+}
+
+.check_btn {
+    background: #FFFFFF;
+    border-radius: 150px;
+    padding: 14px;
+    border: 1px solid #FFFFFF;
+}
+
+.input_border {
+    border: 1px solid rgba(0, 0, 0, 0.4);
+
+    border-radius: 5px;
+}
+
+.line {
+    position: relative;
+
+}
+
+.small_box {
+    background: #2C49FE;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.info_box {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    border: 2px solid #2C49FE;
+
+}
+
+.small_circle {
+    background-color: white;
+    border: 1px solid #2C49FE;
+    border-radius: 50%;
+    padding: 23px;
+    width: 79px;
+}
+
+.start_btn {
+    background: #2C49FE;
+    border-radius: 28px;
+    padding: 11px 28px;
+    border: 1px solid #2C49FE;
+}
+
+.border_right {
+    border-right: 3px solid #ffffffff;
+}
+
+.circle {
+    left: 50%;
+    transform: translateX(-50%);
+    top: -30px;
+}
+
+.shadow_box {
+    background: #FFFFFF;
+    box-shadow: 2px 9px 32px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+}
+
+@media (max-width:567px) {
+
+    div>a h1 {
+        font-size: 30px !important;
+    }
+
+
+    div>img {
+        width: 50%;
+    }
+
+
+    @media (max-width:576px) {
+        .w_20 {
+            width: 50px;
+        }
+    }
+    .border_right{
+       border: 0;
+    }
+        nav ul li a {
+            margin-right: 0%;
+        }
+}
