@@ -289,10 +289,7 @@ nav ul li a {
     }
 
 
-    div>img {
-        width: 50%;
-    }
-
+   
 
     @media (max-width:576px) {
         .w_20 {
