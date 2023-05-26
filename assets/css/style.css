@@ -116,10 +116,12 @@
 nav ul li a {
     margin-right: 25px;
 }
-nav ul li a:hover{
+
+nav ul li a:hover {
     color: #FFFFFF !important;
     font-weight: 600 !important;
 }
+
 .log_btn {
     background: #2C49FE;
     border-radius: 23px;
@@ -172,6 +174,13 @@ nav ul li a:hover{
     background: rgba(44, 73, 254, 0.74);
     border-radius: 150px;
     max-width: 962px;
+    padding: 25px;
+}
+
+.box2 {
+    background: rgba(44, 73, 254, 0.74);
+    border-radius: 0px;
+
     padding: 25px;
 }
 
@@ -286,6 +295,31 @@ nav ul li a:hover{
     border-radius: 5px;
 }
 
+/* box */
+.right_line {
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 80%;
+    min-height: 100px;
+    left: 50%;
+
+    background-color: white;
+    transform: translateX(-50%);
+}
+
+.bottom_line {
+    content: '';
+    position: absolute;
+    max-width: 400px;
+    width: 75%;
+    height: 2px;
+    top: 50%;
+    left: 50%;
+    background-color: white;
+    transform: translatex(-50%);
+}
+
 @media (max-width:576px) {
     .w_20 {
         width: 50px;
@@ -309,6 +343,8 @@ nav ul li a:hover{
         max-width: 962px;
         padding: 16px 28px;
     }
+
+
 }
 
 @media (max-width:768px) {
